@@ -28,12 +28,12 @@ print('say \nbruhhhh')
 # converting data types: self-explanitory, no?
 decimal = 420.6969
 integer = int(decimal)
-print(f"This is a converted data type, you fucking idiot: {integer}")
+print(f"This is a converted data type, you unwavering polyglot: {integer}")
 
 my_list = [1, 2, 3]
 my_list_as_string = str(my_list)
 print(f"This is the original list, homeboy: {my_list}")
-print(f"This is a converted list into an array, you fuckin dipshit: {my_list_as_string}")
+print(f"This is a converted list into an array, aye: {my_list_as_string}")
 
 # inside yr python terminal: converting types, etc
 # 
