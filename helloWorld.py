@@ -43,3 +43,17 @@ print(f"This is a converted list into an array, aye: {my_list_as_string}")
 # >>> num            // 420.0
 # >>> type(num)      // float
 
+# conditionals, my man
+
+print("\n")
+print("What's the name my man")
+name = input()
+name = name.lower()
+
+# Python is real into indentation and semicolons- no curly brackets here :[
+if name == 'faux':
+  print('sup faux')
+elif name == 'graf':
+  print('graf in the house')
+else:
+  print("who the hell are you?")

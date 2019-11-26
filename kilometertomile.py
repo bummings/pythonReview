@@ -1,6 +1,9 @@
-print("How many kilometers did you run, you fuckin' idiot")
-kms = input()
-miles = float(kms) / 1.6
-# miles = round(miles, 2)
+# using input, converting datatypes, rounding to 2 decimals, etc
 
-print(f'That is equal to {miles} miles.')
+print("How many kilometers did you run, run man?")
+kms = input()
+# miles = float(kms) / 1.6
+# miles = round(miles, 2)
+miles = round((float(kms) / 1.6), 2)
+# print(f'That is equal to {miles} miles.')
+print(f'Your {kms}km run was {miles}mi.')
