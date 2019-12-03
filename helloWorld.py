@@ -57,3 +57,17 @@ elif name == 'graf':
   print('graf in the house')
 else:
   print("who the hell are you?")
+
+
+# 2-8: 2 dollar ticket
+# 65+: 5 dollar ticket
+# everyone else: 10 dollar ticket
+age = 2
+
+if (age >= 2 and age <= 8):
+  print('child price')
+elif (age >= 65):
+  print('senior citizen price')
+else:
+  print('normal price')
+
