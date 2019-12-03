@@ -1,40 +1,35 @@
 print('rock paper scissors, yo')
 
-print('player one: ')
-player_1_choice = input()
+player1 = input('player one: ')
+player2 = input('player two: ')
 
-print('player two: ')
-player_2_choice = input()
 
-#variations on rock
-if player_1_choice == 'rock' and player_2_choice == 'scissors':
-  print('player one: rock  |  player two: scissors')
-  print('player one wins')
-elif player_1_choice == 'rock' and player_2_choice == 'paper':
-  print('player one: rock  |  player two: paper')
-  print('player two wins')
-elif player_1_choice == 'rock' and player_2_choice == 'rock':
-  print('player one: rock  |  player two: rock')
+# tie
+if player1 == player2:
   print('it\'s a tie')
 
-#variations on paper
-elif player_1_choice == 'paper' and player_2_choice == 'rock':
-  print('player one: paper  |  player two: rock')
-  print('player one wins')
-elif player_1_choice == 'paper' and player_2_choice == 'scissors':
-  print('player one: paper  |  player two: scissors')
-  print('player two wins')
-elif player_1_choice == 'paper' and player_2_choice == 'paper':
-  print('player one: paper  |  player two: paper')
-  print('it\'s a tie')
+# variations on rock
+elif player1 == 'rock':
+  if player2 == 'scissors':
+    print('player one wins')
+  elif player2 == 'paper':
+    print('player one: rock  |  player two: paper')
+    print('player two wins')
 
-#variations on scissors
-elif player_1_choice == 'scissors' and player_2_choice == 'paper':
-  print('player one: scissors  |  player two: paper')
-  print('player one wins')
-elif player_1_choice == 'scissors' and player_2_choice == 'rock':
-  print('player one: scissors  |  player two: rock')
-  print('player two wins')
-elif player_1_choice == 'scissors' and player_2_choice == 'scissors':
-  print('player one: scissors  |  player two: scissors')
-  print('it\'s a tie')
+# variations on paper
+elif player1 == 'paper':
+  if player2 == 'rock':
+    print('player one wins')
+  elif player2 == 'scissors':
+    print('player two wins')
+
+# variations on scissors
+elif player1 == 'scissors':
+  if player2 == 'paper':
+    print('player one wins')
+  elif player2 == 'rock':
+    print('player two wins')
+
+# whoops
+else:
+  print('something ain\'t right')
