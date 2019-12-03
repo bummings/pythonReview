@@ -1,4 +1,9 @@
-print('rock paper scissors, yo')
+import random
+rando = random.randint(0,10)
+print(rando)
+
+
+print('rock paper scissors, two players')
 
 player1 = input('player one: ')
 player2 = input('player two: ')
@@ -13,7 +18,6 @@ elif player1 == 'rock':
   if player2 == 'scissors':
     print('player one wins')
   elif player2 == 'paper':
-    print('player one: rock  |  player two: paper')
     print('player two wins')
 
 # variations on paper
