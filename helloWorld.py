@@ -30,6 +30,7 @@ decimal = 420.6969
 integer = int(decimal)
 print(f"This is a converted data type, you unwavering polyglot: {integer}")
 
+# the almighty LIST: aka arrays in Python
 my_list = [1, 2, 3]
 my_list_as_string = str(my_list)
 print(f"This is the original list, homeboy: {my_list}")
@@ -70,4 +71,4 @@ elif (age >= 65):
   print('senior citizen price')
 else:
   print('normal price')
-
+ 
