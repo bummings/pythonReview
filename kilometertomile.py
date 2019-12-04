@@ -5,5 +5,5 @@ kms = input()
 # miles = float(kms) / 1.6
 # miles = round(miles, 2)
 miles = round((float(kms) / 1.6), 2)
-# print(f'That is equal to {miles} miles.')
+
 print(f'Your {kms}km run was {miles}mi.')
