@@ -24,12 +24,15 @@
 # for times in range(0, nums):
 #   print('do dat!')
 
-# Loop thru the numbers 1-20
+
+
+# ANOTHER ILL EXERCISE FOR THE PYTHON MASTERS IN THE HOUSE
+# Loop thru the numbers 1-20:
 #   for 4 and 13, print "X is REALLY BAD"
 #   for even numbers print "X is even"
 #   for odd numbers print "X is odd"
 
-nums = range(1,21)
+# nums = range(1,21)
 
 # for num in nums:
 #   if num == 4 or num == 13:
@@ -41,12 +44,23 @@ nums = range(1,21)
 #   else:
 #     print(num)
 
+# or you could be slick and subtract all dem print statements:
+# for num in nums:
+#   if num == 4 or num == 13:
+#     state = "REALLY BAD"
+#   elif num % 2 == 0:
+#     state = 'even'
+#   else:
+#     state = 'odd'
+#   print(f'{num} is {state}')
 
-for num in nums:
-  if num == 4 or num == 13:
-    state = "REALLY BAD"
-  elif num % 2 == 0:
-    state = 'even'
-  else:
-    state = 'odd'
-  print(f'{num} is {state}')
+# while loopin'
+msg = input('Please enter your password. ')
+while msg != 'suhbruh':
+  print('Sorry, please try again.')
+  msg = input('Please enter your password. ')
+  print('Logged in successfully.')
+
+
+
+
