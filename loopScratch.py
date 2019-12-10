@@ -55,11 +55,29 @@
 #   print(f'{num} is {state}')
 
 # while loopin'
-msg = input('Please enter your password. ')
-while msg != 'suhbruh':
-  print('Sorry, please try again.')
-  msg = input('Please enter your password. ')
-  print('Logged in successfully.')
+# msg = input('Please enter your password. ')
+# while msg != 'suhbruh':
+#   print('Sorry, please try again.')
+#   msg = input('Please enter your password. ')
+#   print('Logged in successfully.')
+
+# num =  15
+# while num <= 30:
+#   print("\U0001f600")
+#   print(num)
+#   num += 1
+
+# num = 1
+# while num <= 11:
+#   print("\U0001f600" * num)
+#   num += 1
+
+msg = input('sup with you mane')
+while msg != 'stop':
+  print(msg)
+  msg = input('sup tho')
+
+
 
 
 
