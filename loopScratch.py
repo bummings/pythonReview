@@ -72,7 +72,8 @@
 #   print("\U0001f600" * num)
 #   num += 1
 
-msg = input('sup with you mane')
+# write a while loop that will repeat the user's input back to them. if the user types 'stop', terminate the sequence.
+msg = input('sup with you mane ')
 while msg != 'stop':
   print(msg)
   msg = input('sup tho')
