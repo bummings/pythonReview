@@ -34,25 +34,25 @@
 
 # nums = range(1,21)
 
-# for num in nums:
-#   if num == 4 or num == 13:
-#     print(f'{num} is REALLY BAD')
-#   elif num % 2 == 0:
-#     print(f'{num} is even')
-#   elif num % 2 != 0:
-#     print(f'{num} is odd')
-#   else:
-#     print(num)
+for num in nums:
+  if num == 4 or num == 13:
+    print(f'{num} is REALLY BAD')
+  elif num % 2 == 0:
+    print(f'{num} is even')
+  elif num % 2 != 0:
+    print(f'{num} is odd')
+  else:
+    print(num)
 
 # or you could be slick and subtract all dem print statements:
 # for num in nums:
-#   if num == 4 or num == 13:
-#     state = "REALLY BAD"
-#   elif num % 2 == 0:
-#     state = 'even'
-#   else:
-#     state = 'odd'
-#   print(f'{num} is {state}')
+  if num == 4 or num == 13:
+    state = "REALLY BAD"
+  elif num % 2 == 0:
+    state = 'even'
+  else:
+    state = 'odd'
+  print(f'{num} is {state}')
 
 # while loopin'
 # msg = input('Please enter your password. ')
@@ -77,6 +77,8 @@ msg = input('sup with you mane ')
 while msg != 'stop':
   print(msg)
   msg = input('sup tho')
+
+
 
 
 
