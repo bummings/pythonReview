@@ -23,9 +23,29 @@ if 'cyan' in colors:
 else:
   print('NOPE')
 
-colorSubmission = input('Which color are you looking for?')
+# colorSubmission = input('Which color are you looking for? ')
 
-if colorSubmission in colors:
-  print('Yes, we have that color')
-else:
-  print(f'Are you kidding me? What kind of color is ' + colorSubmission)
+# if colorSubmission in colors:
+#   print('Yes, we have that color')
+# else:
+#   print(f'Are you kidding me? What kind of color is ' + colorSubmission)
+
+for color in colors:  # iterate over an entire list
+  print(color)
+
+
+
+index = 0
+while index < len(colors):
+  print(f'{index}: {colors[index]}')
+  index += 1
+
+appendList = ['a','b','c']
+print(f'List prior to append: {appendList}')
+appendList.append('d')
+print(f'List post append: {appendList}')
+
+# extending multiple to a list
+print(f'List prior to extend: {appendList}')
+appendList.extend(['e','f'])
+print(f'List post extend: {appendList}')
