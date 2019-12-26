@@ -71,4 +71,3 @@ elif (age >= 65):
   print('senior citizen price')
 else:
   print('normal price')
- 

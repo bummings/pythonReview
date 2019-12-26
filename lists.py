@@ -40,12 +40,30 @@ while index < len(colors):
   print(f'{index}: {colors[index]}')
   index += 1
 
-appendList = ['a','b','c']
-print(f'List prior to append: {appendList}')
-appendList.append('d')
-print(f'List post append: {appendList}')
+# LIST METHODS
+listMethods = ['a','b','c']
 
-# extending multiple to a list
-print(f'List prior to extend: {appendList}')
-appendList.extend(['e','f'])
-print(f'List post extend: {appendList}')
+print('\n')       # appending to a list 
+print(f'List prior to APPEND: {listMethods}')
+listMethods.append('d')
+print(f'List post APPEND: {listMethods}')
+
+
+
+print('\n')     # extending multiple to a list 
+print(f'List prior to EXTEND: {listMethods}')
+listMethods.extend(['e','f'])
+print(f'List post EXTEND: {listMethods}')
+
+print('\n')           # inserting into a list
+print(f'List prior to INSERT: {listMethods} ')
+listMethods.insert(2, 'INSERTED')
+listMethods.insert(len(listMethods), 'FINAL')
+print(f'List post INSERT: {listMethods}')
+
+print('\n')         # pop that last one (FINAL)
+print(f'List prior to POP: {listMethods}')
+listMethods.pop()
+print(f'List post POP: {listMethods}')
+
+
